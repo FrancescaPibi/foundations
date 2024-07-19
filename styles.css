@@ -1,0 +1,16 @@
+body {
+    background-color:rgb(205, 189, 219)
+}
+
+h1 {
+    color:rgb(106, 69, 186)
+}
+
+p {
+    color:black;
+}
+
+footer {
+    text-align:center;
+    font-size:small;
+}
