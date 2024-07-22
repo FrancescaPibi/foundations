@@ -7,10 +7,15 @@ h1 {
 }
 
 p {
+    font-style: normal;
+}
+
+.standard {
     color:black;
 }
 
-footer {
-    text-align:center;
-    font-size:small;
+.city {
+    background-color:tomato;
+    color:white;
+    padding: 10%;
 }

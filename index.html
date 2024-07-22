@@ -1,29 +1,68 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-            <link rel="stylesheet" href="styles.css">
+            <meta charset="UTF-8">    
             <title>My first website</title>
+            <link rel="stylesheet" href="styles.css">
             <link rel="icon" type="image/x-icon" href="favicon.png">
-            <meta charset="UTF-8">
+            <meta name="keywords" content="HTML, CSS, JavaScript">
             <meta name="description" content="This page is meant to be an experiment in the creation of a website">
             <meta name="author" content="Francesca Pibi">
+            <meta http-equiv="refresh" content="30">
+            <meta name="viewport" content="width=device-width, initial scale=1.0">
         </head>
 
-    <body> 
-        <h1 style="text-align:center;font-size:70px;color:rgb(106, 69, 186)">My passion for cycling</h1>
-        <p style="text-align:center;font-weight:bold;">Check out <a href="https://www.instagram.com/francescaapibi/" target="_blank">my Instagram profile</a> and <a href="https://www.strava.com/athletes/francescapibi" target="blank">my profile on Strava</a>!</p>
-        <br>
-        <img src="Me.jpg" alt="Me" height="300" width="220">
-        <img src="MeCycling.jpg" alt="Me on the bike" height="300" width="450">
-        <br>
-    
+        <nav>
+            <a href="README.md"></a> |
+            <a href="styles.css"></a>
+        </nav>
 
-        <p>This website will have the following benefits for my career:</p>
-        <ul>
-            <li style="font-style:italic;">&nbsp; Increased traffic</li>
-            <li style="font-weight:bold;">Promotional Opportunities</li>
-            <li style="text-decoration:underline;">&nbsp;Global Reach</li>
-        </ul>
+    <body> 
+        <div>
+            <div>
+                <h1 style="text-align:center;font-size:70px;color:rgb(106, 69, 186)">My passion for cycling</h1>
+                <p style="text-align:center;font-weight:bold;">Check out <a href="https://www.instagram.com/francescaapibi/" target="_top">my Instagram profile</a> and <a href="https://www.strava.com/athletes/francescapibi" target="blank">my profile on Strava</a>!</p>
+            </div>
+
+            <div id="demo"></div>
+
+            <figure>
+                <img src="Me.jpg" alt="Me" height="300" width="220">
+                <figcaption>Fig.1</figcaption>
+                <img src="MeCycling.jpg" alt="Me on the bike" height="300" width="450">
+                <figcaption>Fig.2</figcaption>
+            </figure>
+        
+            <div>
+                <p>This website will have the following benefits for my career:</p>
+                <ol>
+                    <li style="font-style:italic;">&nbsp; Increased traffic</li>
+                    <li style="font-weight:bold;">Promotional Opportunities</li>
+                    <li style="text-decoration:underline;">&nbsp;Global Reach</li>
+                </ol>
+            </div>
+        </div>
+        
+        <h2 class="city">London</h2>
+        <p>hhhhhhhhhh</p>
+
+        <h2 class="city">Paris</h2>
+        <p>jjjjjjjjjjjjjj</p>
+
+        <h2 class="footer">Tokyo</h2>
+        <p>ffffffffff</p>
+
+        <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+        <pre>
+        <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+        </code>
+        </pre>
+
+        <iframe src="https://elisabalsamo.com/" style="border:none;" title="Elisa Balsamo's website"></iframe>
 
         <!-- <table>
             <tr>
@@ -41,12 +80,16 @@
 
             My Bonnie lies over the ocean.
         </pre> -->
-        
+
         <footer>
-            <p>Written and owned by Francesca Pibi</p>
-            <p>You can contact me at the email address: <a href="mailto:franci.pibi@gmail.com?subject=Hello&body=How are you?">franci.pibi@gmail.com</a> <br> or at the phone number: <a href="tel:+39-320-173-7970">+39 3201737970</a></p>
+            <p>Written and owned by Francesca Pibi &reg; &#128516; </p>
+            <p>You can contact me at the email address: <a class="standard" href="mailto:franci.pibi@gmail.com?subject=Hello&body=How are you?">franci.pibi@gmail.com</a> <br> or at the phone number: <a class="standard" href="tel:+39-320-173-7970">+39 3201737970</a></p>
             <!-- Phone number to be checked on an actual phone -->
+
+            <!-- 
+                This is a long comment example.
+                This is a long comment example.
+            -->
         </footer>
-       
     </body>
 </html>
