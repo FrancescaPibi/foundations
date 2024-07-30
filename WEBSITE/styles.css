@@ -8,19 +8,48 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color:white;
     text-transform:uppercase;
     font-family: "Playfair Display", serif;
     font-style: normal;
+    letter-spacing: 1px;
 }
 .topleft {
-    text-align:left;
-    font-size: 29px;
-    font-weight: 300;
-    margin-block-start:0;
-    margin-block-end: 2px;
+    position: absolute;
+    top: 18px;
+    left:30px;
+    font-size: 28px;
+    font-weight: 200;
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    color: white;
+}
+.subleft {
+    position: absolute;
+    top: 55px;
+    left:30px;
+    font-size: 12px;
+    font-weight: 100;
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    color: rgb(215, 213, 213);
 }
 .topright {
-    text-align:right;
+    position:absolute;
+    top: 40px;
+    right:30px;
     font-size: 14px;
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    color:rgb(215, 213, 213);
+}
+a:link {
+    color: rgb(215, 213, 213);
+    text-decoration: none;
+    margin-right: 27px;
+}
+a:visited {
+    color: rgb(215, 213, 213);
+}
+a:hover {
+    color:white;
 }
