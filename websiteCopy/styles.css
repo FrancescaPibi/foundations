@@ -50,22 +50,22 @@ header .subtitle {
     display:flex;
 }
 
-div.links a {
+nav a {
     font-size: 14px;
     color:rgb(215, 213, 213);
     margin-left: 27px;
 }
 
-a:link {
+nav a:link {
     color: rgb(215, 213, 213);
     text-decoration: none;
 }
 
-a:visited {
+nav a:visited {
     color: rgb(215, 213, 213);
 }
 
-a:hover {
+nav a:hover {
     color:white;
 }
 
