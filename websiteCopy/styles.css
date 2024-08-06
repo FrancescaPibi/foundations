@@ -7,7 +7,7 @@ body {
 }
 
 /* First Section */
-.container {
+.hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://elisabalsamo.com/wp-content/uploads/2024/01/cropped-SteelCityMedia_TREK_LIDL_ROAD_KNIT_SHOE_JASPER_BALSAMO_026.jpeg");
     height: 50vh;
     background-position: center;
@@ -50,7 +50,7 @@ header .subtitle {
 }
 
 /* Nav */
-.navbar{
+nav {
     position:absolute;
     top: 40px;
     right:25px;
@@ -78,7 +78,7 @@ nav a:hover {
     color:white;
 }
 
-div.language i {
+div.languages i {
     width: 16px;
     height: 16px;
     margin-left: 27px;
