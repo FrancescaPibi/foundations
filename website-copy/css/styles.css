@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+/* Colors as classes */
+
 body {
     min-height: 100vh;
     background-color: rgb(206, 206, 206);
