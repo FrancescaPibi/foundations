@@ -1,6 +1,9 @@
-# Experimenting
+# THE FOUNDATIONS
 
-Here I allow myself to experiment and apply what I learn on a theoretical basis.
+This will be my playground.  
+A space where to experiment as much as possible.  
 
-*It won't be an actual project*.
-
+Main topics:  
+1. HTML
+2. CSS
+3. JavaScript
