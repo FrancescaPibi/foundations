@@ -1,7 +1,8 @@
-# THE FOUNDATIONS
+# MY PLAYGROUND
 
 This will be my playground.  
 A space where to experiment as much as possible.  
+
 
 Main topics:  
 1. HTML
