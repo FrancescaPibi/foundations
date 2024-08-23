@@ -32,6 +32,11 @@ body {
 }
 
 /* Header - item1 */
+header {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+
 header .title {
     font-size: 1.7rem;
     font-weight: 200;
@@ -54,9 +59,10 @@ header .subtitle {
 
 /* Nav - item2 */
 nav { 
-    /* align-items: flex-end; */
     display:flex;
     gap: 2rem;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
 }
 
 /* Pages */
