@@ -5,18 +5,18 @@
     padding: 0;
 }
 
-/* Colors as classes */
+:root {
+    --white: #ffffff;
+    --grey: #CECECE;
+}
 
 body {
     min-height: 100vh;
-    background-color: rgb(206, 206, 206);
+    background-color: var(--grey);
 }
 
-/* Hero Section - Flexbox*/
+/* hero section */
 .hero {
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
     height: 50vh;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -25,77 +25,75 @@ body {
     background-size: cover;
 }
 
-.hero .title, .hero .subtitle, .hero a {
+.hero .titleContainer, .hero a {
     font-family: "Playfair Display", serif;
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
 
-/* Header - item1 */
+/* header - Flexbox */
 header {
-    padding-top: 1.5rem;
-    padding-left: 2rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
 }
 
-header .title {
+/* titleContainer - item1 */
+.titleContainer .title {
     font-size: 1.7rem;
     font-weight: 200;
-    color: white;
+    color: var(--white);
 }
 
-header a:link {
+.titleContainer a:link {
     text-decoration: none;
 }
 
-header a:visited {
-    color: white;
+.titleContainer a:visited {
+    color: var(--white);
 }
 
-header .subtitle {
+.titleContainer .subtitle {
     font-size: .7rem;
     font-weight: 100;
-    color: rgb(215, 213, 213);
+    color: var(--grey);
 }
 
-/* Nav - item2 */
-nav { 
+/* nav - item2 */
+nav {
     display:flex;
     gap: 2rem;
-    padding-top: 2.5rem;
-    padding-right: 2rem;
+    align-items: center;
 }
 
 /* Pages */
-nav .pages {
+nav .pages, div.languages {
     display:flex;
     gap: 2rem;
 }
 
 nav a {
     font-size: .9rem;
-    color:rgb(215, 213, 213);
+    color: var(--grey);
+    text-align: center;
 }
 
 nav a:link {
-    color: rgb(215, 213, 213);
+    color: var(--grey);
     text-decoration: none;
 }
 
 nav a:visited {
-    color: rgb(215, 213, 213);
+    color: var(--grey);
 }
 
 nav a:hover {
-    color:white;
+    color: var(--white);
 }
 
 /* Languages */
 div.languages i {
     width: 1rem;
     height: 1rem;
-}
-
-div.languages {
-    display:flex;
-    gap: 2rem;
 }
